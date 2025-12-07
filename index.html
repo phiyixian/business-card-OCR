@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/tesseract.js@v5.0.0/dist/tesseract.min.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Business Card OCR Extraction</h1>
+        <p>Upload one or more images of clear business card images to <br>extract the contact information and save their contacts.</p>
+    </div>
+
+    <div class="upload">
+        <input type="file" id="uploader" multiple>
+    </div>
+
+    <div class="preview"></div>
+
+    <button class="btn">Extract Text</button>
+
+    <p class="result" id="result">Result</p>
+    <div class="results" id="results"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

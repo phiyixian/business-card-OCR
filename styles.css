@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.upload {
+    width: 100%;
+    margin: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.results {
+    width: 70vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
